@@ -54,9 +54,11 @@ call vundle#end()            " required
 syntax on
 filetype plugin indent on
 
+" COLORSCHEME ================================================================
 colorscheme lucius
 LuciusDarkHighContrast
 
+" SEARCH =====================================================================
 set hlsearch
 
 set expandtab " use spaces, not tabs
@@ -64,8 +66,8 @@ set shiftwidth=2 " an autoindent (with <<) is two spaces
 set smarttab
 set autoindent
 set smartindent
-"set tabstop=2 " a tab is two spaces
-"set backspace=indent,eol,start "backspace through everything in insert mode
+set tabstop=2 " a tab is two spaces
+set backspace=indent,eol,start "backspace through everything in insert mode
 
 set number
 
