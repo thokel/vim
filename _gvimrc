@@ -1,0 +1,19 @@
+" Toolbar ausschalten
+set guioptions-=T
+" rechte Scrollbar ausschalten
+set guioptions-=r
+set guioptions-=R
+" linke Scrollbar ausschalten
+set guioptions-=l
+set guioptions-=L
+" Airline Statusbar
+set laststatus=2
+" Schriftart
+set encoding=utf-8
+set guifont=Powerline\ Consolas:h11
+" Airline Settings
+" let g:Powerline_symbols="fancy"
+set noshowmode
+set ttimeoutlen=50
+let g:airline_powerline_fonts=1
+let g:airline_theme="powerlineish"
